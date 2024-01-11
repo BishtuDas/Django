@@ -10,7 +10,7 @@ def index(request):
         message = request.POST.get('message')
 
         data = {
-                'name': name,
+                'name': hello,
                 'email':email,
                 'subject':subject,
                 'message': message
